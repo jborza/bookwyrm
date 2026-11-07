@@ -199,6 +199,7 @@ from .rss_feed import (
     RssCommentsOnlyFeed,
 )
 from .search import Search
+from .quick_add import QuickAdd
 from .setup import InstanceConfig, CreateAdmin
 from .status import CreateStatus, EditStatus, DeleteStatus, update_progress
 from .status import edit_readthrough

@@ -580,6 +580,8 @@ urlpatterns = [
         views.DirectMessage.as_view(),
         name="direct-messages-user",
     ),
+    # quick add
+    re_path(r"^quick-add/?$", views.QuickAdd.as_view(), name="quick-add"),
     # search
     re_path(r"^search.json/?$", views.Search.as_view(), name="search"),
     re_path(r"^search/?$", views.Search.as_view(), name="search"),
